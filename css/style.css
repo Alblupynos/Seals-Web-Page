@@ -1,0 +1,116 @@
+/*GENERAL STYLES*/
+body{
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+ 
+.container {
+	margin: 0 auto;
+	width: 50%
+}
+
+/*NAVIGATION*/
+.page-navigation {
+	background-color: 	#FFFFFF;
+	height: auto;
+	min-height: 100px;
+	text-align: center; 
+}
+.page-navigation li, img {
+	float: left;
+
+	margin: 30px 30px 0 30px;
+}
+
+.page-navigation li a {
+    display: block;
+    color: 	#008B8B;
+    text-align: center;
+    /*padding: 10px;*/
+    text-decoration: none;
+}
+
+.page-navigation li a:hover {
+    text-shadow:5px 5px 10px #87CEEB;
+}
+
+/*HEADER*/
+.header {
+	margin: 10px 0 10px 0;
+	padding: 200px 0;
+	background-image: url("http://i.huffpost.com/gen/1415696/images/o-LAUGHING-SEAL-3-facebook.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+.header h1,
+ .header h3{
+ 	text-shadow:5px 5px 10px black;
+ 	font-size: 400%;
+	color: #008B8B;
+	text-align: center;
+}
+
+ 
+
+/*MAIN PART*/
+
+.collections {
+	overflow: auto;
+
+}
+.mainsection-header{
+	margin: 10px 0 10px 0;
+	padding: 200px 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+	
+}
+
+.mainsection-header h2{
+	text-shadow:5px 5px 10px black;
+ 	font-size: 400%;
+	color: #008B8B;
+	text-align: center;
+}
+#Description {
+	background-image: url("../image/seal.jpg");
+}
+
+#Population {
+	background-image: url("https://www.montereybayaquarium.org/-/m/images/animal-guide/marine-mammals/harbor-seal.jpg?bc=white&h=676&mh=738&mw=1312&w=1196&usecustomfunctions=1&cropx=0&cropy=99");	
+}
+
+#HabitatAndDiet {
+	background-image: url("https://aos.iacpublishinglabs.com/question/aq/1400px-788px/weddell-seals-eat_cfbe94a0d6ad3a2c.jpg?domain=cx.aos.ask.com");	
+}
+
+#BehaviorAndReproduction {
+	background-image: url("http://www.mmc.gov/wp-content/uploads/hawaiianmonkseals_noaa.jpg");	
+}
+
+.text {
+	margin: 50px;
+	font-size: 130%;
+	border: 2px solid 	#B0E0E6;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+
+/*FOOTER*/
+.footer {
+	background-color: #FFFFFF;
+	color: #008B8B;
+	padding: 20px 0;
+	margin-top: 30px;
+}
