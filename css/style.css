@@ -48,7 +48,7 @@ ul li {
 	background-image: url("http://i.huffpost.com/gen/1415696/images/o-LAUGHING-SEAL-3-facebook.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	
+	width: 100%;
 }
 .header h1,
  .header h3{
@@ -71,8 +71,6 @@ ul li {
 	padding: 200px 0;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	
-	
 }
 
 .mainsection-header h2{
@@ -86,15 +84,15 @@ ul li {
 }
 
 #Population {
-	background-image: url("https://www.montereybayaquarium.org/-/m/images/animal-guide/marine-mammals/harbor-seal.jpg?bc=white&h=676&mh=738&mw=1312&w=1196&usecustomfunctions=1&cropx=0&cropy=99");	
+	background-image: url("../image/seal1.jpg");	
 }
 
 #HabitatAndDiet {
-	background-image: url("https://aos.iacpublishinglabs.com/question/aq/1400px-788px/weddell-seals-eat_cfbe94a0d6ad3a2c.jpg?domain=cx.aos.ask.com");	
+	background-image: url("../image/seal2.jpg");	
 }
 
 #BehaviorAndReproduction {
-	background-image: url("http://www.mmc.gov/wp-content/uploads/hawaiianmonkseals_noaa.jpg");	
+	background-image: url("../image/seal3.jpg");	
 }
 
 .text {
