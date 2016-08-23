@@ -58,14 +58,15 @@ ul li {
 	text-align: center;
 }*/
 
- .carousel-inner img {
+.carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
   }
-  .carousel-caption h3 {
-      color: #008B8B !important;
+.carousel-caption h3 {
+      color: #FFFFFF !important;
+      text-shadow:5px 5px 10px black;
   }
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
