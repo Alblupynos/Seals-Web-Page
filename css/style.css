@@ -16,7 +16,7 @@ ul li {
 	width: 50%
 }
 
-/*NAVIGATION*/
+/*NAVIGATION
 .page-navigation {
 	background-color: 	#FFFFFF;
 	height: auto;
@@ -33,13 +33,13 @@ ul li {
     display: block;
     color: 	#008B8B;
     text-align: center;
-    /*padding: 10px;*/
+    
     text-decoration: none;
 }
 
 .page-navigation li a:hover {
     text-shadow:5px 5px 10px #87CEEB;
-}
+}  */
 
 /*HEADER*/
 .header {
