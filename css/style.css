@@ -10,12 +10,12 @@ ul {
 ul li {
 	list-style-type: none;
 }
- 
+ /*
 .container {
 	margin: 0 auto;
 	width: 50%
 }
-
+*/
 /*NAVIGATION
 .page-navigation {
 	background-color: 	#FFFFFF;
@@ -58,21 +58,60 @@ ul li {
 	text-align: center;
 }*/
 
+
+/*HEADER*/
 .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
+    width: 100%; /* Set width to 100% */
+    margin: auto;
   }
 .carousel-caption h3 {
-      color: #FFFFFF !important;
-      text-shadow:5px 5px 10px black;
+    color: #FFFFFF !important;
+    text-shadow:5px 5px 10px black;
+  }
+ .carousel-caption p {
+    color: #FFFFFF !important;
+    text-shadow: 3px 3px 3px #008B8B;
   }
 @media (max-width: 600px) {
     .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 
-/*MAIN PART*/
+}
 
+
+/*MAIN PART*/
+.container {
+    padding: 60px 60px 60px 60px;
+    background-color: #F0FFFF; 
+  }
+.jumbotron {
+	min-height: 300px;
+}
+.jumbotron h2{
+	text-shadow:5px 5px 10px black;
+ 	font-size: 400%;
+	color: #008B8B;
+	text-align: center;
+}
+
+#Description {
+	background-image: url("../image/seal.jpg");
+}
+
+#Population {
+	background-image: url("../image/seal1.jpg");	
+}
+
+#HabitatAndDiet {
+	background-image: url("../image/seal2.jpg");	
+}
+
+#BehaviorAndReproduction {
+	background-image: url("../image/seal3.jpg");	
+}
+
+/*
 .collections {
 	overflow: auto;
 
@@ -114,7 +153,7 @@ ul li {
     padding: 20px;
 
 }
-
+*/
 
 /*FOOTER*/
 .footer {
