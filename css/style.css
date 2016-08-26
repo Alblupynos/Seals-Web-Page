@@ -43,7 +43,13 @@ body{
 #GeneralInformation, #Population, #BehaviorAndReproduction{
 	background-color: 	#F0F8FF;
 } 
-
+img{
+	transition: width 1s, height 1s;
+}
+img:hover {
+	width: 103%;
+	height: 103%;
+}
 /*FOOTER*/
 #Footer {
 	background-color: #000000;
