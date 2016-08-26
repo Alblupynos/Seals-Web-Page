@@ -3,38 +3,33 @@ body{
 	font-family: Arial, San-Serif;
 	font-size: 100%;
 }
-ul {
-	margin: 0;
-	padding: 0;
-}
-ul li {
-	list-style-type: none;
-}
-#myCarousel p, #myCarousel h3 {
-	text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px
+
+/*NAVIGATION*/
+.navbar{
+	opacity: 0.85;
 }
 
 /*HEADER*/
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
+    width: 100%;
     margin: auto;
   }
-.carousel-caption h3 {
-    color: #FFFFFF !important;
-    text-shadow:5px 5px 10px black;
-  }
- .carousel-caption p {
-    color: #FFFFFF !important;
-    text-shadow: 3px 3px 3px #008B8B;
-  }
+.carousel-caption p, h3 {
+	color: #FFFFFF !important;
+	text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px;
+}
 @media (max-width: 600px) {
     .carousel-caption {
-    display: none; /*Hide the carousel text when the screen is less than 600 pixels wide */
+    display: none; /*Hide the carousel text*/
     }
 }
 
 
 /*MAIN PART*/
+.container-fluid img{
+	width: 60%;
+	height: auto;
+}
 .row {
     padding: 60px 60px 60px 60px; 
   }
@@ -48,78 +43,8 @@ ul li {
 #GeneralInformation, #Population, #BehaviorAndReproduction{
 	background-color: 	#F0F8FF;
 } 
+
+/*FOOTER*/
 #Footer {
 	background-color: #000000;
 }
-.container-fluid img{
-	width: 60%;
-	height: auto;
-}
-/*
-#Description {
-	background-image: url("../image/seal.jpg");
-}
-
-#Population {
-	background-image: url("../image/seal1.jpg");	
-}
-
-#HabitatAndDiet {
-	background-image: url("../image/seal2.jpg");	
-}
-
-#BehaviorAndReproduction {
-	background-image: url("../image/seal3.jpg");	
-}
-*/
-/*
-.collections {
-	overflow: auto;
-
-}
-.mainsection-header{
-	margin: 10px 0 10px 0;
-	padding: 200px 0;
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
-.mainsection-header h2{
-	text-shadow:5px 5px 10px black;
- 	font-size: 400%;
-	color: #008B8B;
-	text-align: center;
-}
-#Description {
-	background-image: url("../image/seal.jpg");
-}
-
-#Population {
-	background-image: url("../image/seal1.jpg");	
-}
-
-#HabitatAndDiet {
-	background-image: url("../image/seal2.jpg");	
-}
-
-#BehaviorAndReproduction {
-	background-image: url("../image/seal3.jpg");	
-}
-
-.text {
-	margin: 50px;
-	font-size: 130%;
-	border: 2px solid 	#B0E0E6;
-    border-radius: 8px;
-    padding: 20px;
-
-}
-*/
-
-/*FOOTER
-.footer {
-	background-color: #FFFFFF;
-	color: #008B8B;
-	padding: 20px 0;
-	margin-top: 30px;
-}*/
