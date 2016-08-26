@@ -14,16 +14,27 @@ body{
     width: 100%;
     margin: auto;
   }
-.carousel-caption p, h3 {
+.item p, h3 {
 	color: #FFFFFF;
 	text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px;
 }
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
 @media (max-width: 600px) {
     .carousel-caption {
     display: none; /*Hide the carousel text*/
     }
 }
-
 
 /*MAIN PART*/
 .container-fluid img{
@@ -34,14 +45,14 @@ body{
     padding: 60px 60px 60px 60px; 
   }
 
-#Description, #HabitatAndDiet{
+#Description, #HabitatAndDiet, #Video{
 	background-color: #F0FFFF;
 }
 #Description img, #HabitatAndDiet img{
 	float: right;
 }
-#GeneralInformation, #Population, #BehaviorAndReproduction{
-	background-color: 	#F0F8FF;
+#GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider{
+	background-color: #F0F8FF;
 } 
 img{
 	transition: width 1s, height 1s;
@@ -50,7 +61,10 @@ img:hover {
 	width: 103%;
 	height: 103%;
 }
+
+
 /*FOOTER*/
 #Footer {
 	background-color: #000000;
+	padding-top: 20px;
 }
