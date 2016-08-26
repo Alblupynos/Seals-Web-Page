@@ -15,7 +15,7 @@ body{
     margin: auto;
   }
 .carousel-caption p, h3 {
-	color: #FFFFFF !important;
+	color: #FFFFFF;
 	text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px;
 }
 @media (max-width: 600px) {
