@@ -10,7 +10,7 @@ ul {
 ul li {
 	list-style-type: none;
 }
-#myCarousel p, h3 {
+#myCarousel p, #myCarousel h3 {
 	text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px
 }
 
@@ -41,6 +41,9 @@ ul li {
 
 #Description, #HabitatAndDiet{
 	background-color: #F0FFFF;
+}
+#Description img, #HabitatAndDiet img{
+	float: right;
 }
 #GeneralInformation, #Population, #BehaviorAndReproduction{
 	background-color: 	#F0F8FF;
