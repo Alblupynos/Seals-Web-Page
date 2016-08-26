@@ -10,54 +10,9 @@ ul {
 ul li {
 	list-style-type: none;
 }
- /*
-.container {
-	margin: 0 auto;
-	width: 50%
+#myCarousel p, h3 {
+	text-shadow: #000 2px 0px 2px, #000 0px 2px 2px, #000 0px -2px 2px, #000 -2px 0px 2px
 }
-*/
-/*NAVIGATION
-.page-navigation {
-	background-color: 	#FFFFFF;
-	height: auto;
-	min-height: 100px;
-	text-align: center; 
-}
-.page-navigation li, img {
-	float: left;
-
-	margin: 30px 30px 0 30px;
-}
-
-.page-navigation li a {
-    display: block;
-    color: 	#008B8B;
-    text-align: center;
-    
-    text-decoration: none;
-}
-
-.page-navigation li a:hover {
-    text-shadow:5px 5px 10px #87CEEB;
-}  */
-
-/*HEADER
-.header {
-	margin: 10px 0 10px 0;
-	padding: 200px 0;
-	background-image: url("../image/seal0.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-}
-.header h1,
- .header h3{
- 	text-shadow:5px 5px 10px black;
- 	font-size: 400%;
-	color: #008B8B;
-	text-align: center;
-}*/
-
 
 /*HEADER*/
 .carousel-inner img {
@@ -74,27 +29,30 @@ ul li {
   }
 @media (max-width: 600px) {
     .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    display: none; /*Hide the carousel text when the screen is less than 600 pixels wide */
     }
-
 }
 
 
 /*MAIN PART*/
-.container {
-    padding: 60px 60px 60px 60px;
-    background-color: #F0FFFF; 
+.row {
+    padding: 60px 60px 60px 60px; 
   }
-.jumbotron {
-	min-height: 300px;
-}
-.jumbotron h2{
-	text-shadow:5px 5px 10px black;
- 	font-size: 400%;
-	color: #008B8B;
-	text-align: center;
-}
 
+#Description, #HabitatAndDiet{
+	background-color: #F0FFFF;
+}
+#GeneralInformation, #Population, #BehaviorAndReproduction{
+	background-color: 	#F0F8FF;
+} 
+#Footer {
+	background-color: #000000;
+}
+.container-fluid img{
+	width: 60%;
+	height: auto;
+}
+/*
 #Description {
 	background-image: url("../image/seal.jpg");
 }
@@ -110,7 +68,7 @@ ul li {
 #BehaviorAndReproduction {
 	background-image: url("../image/seal3.jpg");	
 }
-
+*/
 /*
 .collections {
 	overflow: auto;
@@ -155,10 +113,10 @@ ul li {
 }
 */
 
-/*FOOTER*/
+/*FOOTER
 .footer {
 	background-color: #FFFFFF;
 	color: #008B8B;
 	padding: 20px 0;
 	margin-top: 30px;
-}
+}*/
