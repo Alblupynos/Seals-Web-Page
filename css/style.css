@@ -84,7 +84,7 @@ body{
 	background-color: #F0FFFF;
 }
 
-#GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider{
+#GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider, #CommentsAdd{
 	background-color: #F0F8FF;
 } 
 
