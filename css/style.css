@@ -2,13 +2,16 @@
 body{
 	font-family: Arial, San-Serif;
 	font-size: 100%;
+	padding-top: 50px;
 }
 
 /*NAVIGATION*/
 .navbar{
 	opacity: 0.85;
 }
-
+.page-header {
+	padding-top: 15px;/*for navbar not overlabs page-header*/
+}
 /*HEADER*/
 .carousel-inner img {
     width: 100%;
@@ -30,17 +33,49 @@ body{
     font-style: normal;
 }
 
-@media (max-width: 600px) {
+/*PHONE*/
+
+@media (max-width: 767px) {
     .carousel-caption {
     display: none; /*Hide the carousel text*/
     }
+    img {
+    	width: 100%;
+    	height: auto;
+    }
+
+}
+
+/*TABLET*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+	#Description img, #HabitatAndDiet img {
+		float: right;
+	}
+	 img {
+    	width: 100%;
+    	height: auto;
+    }
+}
+
+/*NOTEBOOK AND PERSONAL COMPUTERS*/
+
+@media(min-width: 992px) {
+	#Description img, #HabitatAndDiet img {
+		float: right;
+	}
+	img {
+		width: 60%;
+		height: auto;
+		transition: width 1s, height 1s;
+	}
+	img:hover {
+		width: 103%;
+		height: 103%;
+	}
 }
 
 /*MAIN PART*/
-.container-fluid img{
-	width: 60%;
-	height: auto;
-}
 .row {
     padding: 60px 60px 60px 60px; 
   }
@@ -48,23 +83,17 @@ body{
 #Description, #HabitatAndDiet, #Video{
 	background-color: #F0FFFF;
 }
-#Description img, #HabitatAndDiet img{
-	float: right;
-}
+
 #GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider{
 	background-color: #F0F8FF;
 } 
-img{
-	transition: width 1s, height 1s;
-}
-img:hover {
-	width: 103%;
-	height: 103%;
-}
+
 
 
 /*FOOTER*/
 #Footer {
 	background-color: #000000;
 	padding-top: 20px;
+	opacity: 0.85;
 }
+
