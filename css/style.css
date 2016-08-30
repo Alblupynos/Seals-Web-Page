@@ -9,9 +9,7 @@ body{
 .navbar{
 	opacity: 0.85;
 }
-.page-header {
-	padding-top: 15px;/*for navbar not overlabs page-header*/
-}
+
 /*HEADER*/
 .carousel-inner img {
     width: 100%;
@@ -33,6 +31,33 @@ body{
     font-style: normal;
 }
 
+
+/*MAIN PART*/
+.page-header {
+	padding-top: 15px;/*for navbar not overlabs page-header*/
+}
+
+.row {
+    padding: 60px 60px 60px 60px; 
+  }
+
+#Description, #HabitatAndDiet, #Video{
+	background-color: #F0FFFF;
+}
+
+#GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider, #CommentsAdd{
+	background-color: #F0F8FF;
+} 
+
+
+
+/*FOOTER*/
+#Footer {
+	background-color: #000000;
+	padding-top: 20px;
+	opacity: 0.85;
+}
+
 /*PHONE*/
 
 @media (max-width: 767px) {
@@ -42,7 +67,17 @@ body{
     img {
     	width: 100%;
     	height: auto;
+    	margin-bottom: 40px;
     }
+    .row {
+    	padding: 0px 30px 30px 30px;
+    }
+    #GeneralImage{
+    	padding-top: 40px;
+    }
+    .page-header {
+		padding-top: 0px;
+	}
 
 }
 
@@ -73,27 +108,5 @@ body{
 		width: 103%;
 		height: 103%;
 	}
-}
-
-/*MAIN PART*/
-.row {
-    padding: 60px 60px 60px 60px; 
-  }
-
-#Description, #HabitatAndDiet, #Video{
-	background-color: #F0FFFF;
-}
-
-#GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider, #CommentsAdd{
-	background-color: #F0F8FF;
-} 
-
-
-
-/*FOOTER*/
-#Footer {
-	background-color: #000000;
-	padding-top: 20px;
-	opacity: 0.85;
 }
 
