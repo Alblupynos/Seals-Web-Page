@@ -47,6 +47,11 @@ body{
 
 #GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider, #CommentsAdd{
 	background-color: #F0F8FF;
+}
+
+#CommentsSlider{
+	padding-left: 0px;
+	padding-right: 0px;
 } 
 
 
