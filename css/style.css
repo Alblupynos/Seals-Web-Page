@@ -31,6 +31,10 @@ body{
     font-style: normal;
 }
 
+.carousel-indicators li {
+	border: 1px solid #008B8B;/*doesn't work*/
+}
+
 
 /*MAIN PART*/
 .page-header {
@@ -45,16 +49,12 @@ body{
 	background-color: #F0FFFF;
 }
 
-#GeneralInformation, #Population, #BehaviorAndReproduction, #CommentsSlider, #CommentsAdd{
+#GeneralInformation, #Population, #BehaviorAndReproduction, #Comments{
 	background-color: #F0F8FF;
 }
-
-#CommentsSlider{
-	padding-left: 0px;
-	padding-right: 0px;
-} 
-#CommentsSlider .carousel-control.right,
-#CommentsSlider .carousel-control.left {
+ 
+#Comments .carousel-control.right,
+#Comments .carousel-control.left {
 	background-image: none; 
 }
 

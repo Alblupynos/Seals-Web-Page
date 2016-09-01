@@ -14,7 +14,7 @@
   	<script type="text/javascript" src="script/directives/btnAutoCollapse.js"></script>
 </head>
 
-<body ng-controller="CommentsController" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 	<!--NAVIGATION-->
 	
@@ -29,18 +29,13 @@
 				<a class="navbar-brand" href="#myPage">Seals</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">	
-				<ul class="nav navbar-nav navbar-right">
-					<!--
-					<li class="navbar-btn">
-     				<a href="#" ng-hide="username" **btn-auto-collapse**>Sign in</a>
-					</li>
-					-->
-					<li><a href="#Description">Description</a></li>
-					<li><a href="#Population">Population</a></li>
-					<li><a href="#HabitatAndDiet">Habitat and diet</a></li>
-					<li><a href="#BehaviorAndReproduction">Behavior and reproduction</a></li>
-					<li><a href="#Video">Video</a></li>
-					<li><a href="#CommentsSlider">Comments</a></li>
+				<ul class="nav navbar-nav navbar-right">					
+					<li><a ng-hide="#myNavbar" btn-auto-collapse href="#Description">Description</a></li>
+					<li><a ng-hide="#myNavbar" btn-auto-collapse href="#Population">Population</a></li>
+					<li><a ng-hide="#myNavbar" btn-auto-collapse href="#HabitatAndDiet">Habitat and diet</a></li>
+					<li><a ng-hide="#myNavbar" btn-auto-collapse href="#BehaviorAndReproduction">Behavior and reproduction</a></li>
+					<li><a ng-hide="#myNavbar" btn-auto-collapse href="#Video">Video</a></li>
+					<li><a ng-hide="#myNavbar" btn-auto-collapse href="#Comments">Comments</a></li>
 				</ul>
 			</div>
 		</div>		
@@ -203,9 +198,11 @@
   			</video>
 		</div>
 		<!--/VIDEO-->
-		<!--COMMENTS SLIDER-->
-		<div class="container-fluid" id="CommentsSlider">
-			<h2 class="page-header text-center">What you say about seals</h2>
+
+		<!--COMMENTS-->			
+		<div ng-controller="CommentsController" class="container-fluid" id="Comments">
+			<!--CommentsSlider-->
+			<h2 class="page-header text-center">What you say about seals</h2>			
 			<div id="CommentsCarousel" class="carousel slide text-center" data-ride="carousel">
   			<!-- Indicators -->
  				 <ol class="carousel-indicators">
@@ -217,7 +214,7 @@
   			<!-- Wrapper for slides -->
 	  			<div class="carousel-inner" role="listbox">
 		    		<div class="item active">
-		    			<h4>"They are so cute!"<br><span style="font-style:normal;">Chandler Bing</span></h4>	    			
+		    			<h4>"They are so cute!"<br><span style="font-style:normal;">Chandler Bing</span></h4>    			
 		    		</div>
 	    			<div ng-repeat="item in list.items" class="item">
 	    				<h4>{{item.comment}}<br><span style="font-style:normal;">{{item.name}}</span></h4>     				
@@ -235,10 +232,7 @@
 	    			<span class="sr-only">Next</span>
 	  			</a>
 			</div>
-		</div>	
-		<!--/COMMENTS SLIDER-->
-		<!--COMMENTS ADD-->
-		<div class="container-fluid" id="CommentsAdd">
+			<!--Comments Add-->
 			<h2 class="page-header text-center">Add your comment about seals!</h2><br>
 			<form class="form-horizontal">
 				<div class="form-group">										
@@ -260,7 +254,7 @@
     			</div>
 			</form>
 		</div>
-		<!--/COMMENTS ADD-->
+		<!--/COMMENTS-->
 	</main>
 	<!--/MAIN SECTION-->
 	<!--FOOTER-->
