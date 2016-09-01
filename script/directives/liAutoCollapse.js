@@ -7,7 +7,7 @@ sealApp.directive('liAutoCollapse', function() {
   };
   function link(scope, element, attrs) {    
     element.on('click', function(event) {              
-      $(".navbar-collapse.in").collapse('hide');
+      $(".navbar-collapse").collapse('hide');      
     });
   }
 });

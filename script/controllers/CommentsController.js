@@ -12,6 +12,8 @@ $scope.list = model;
 $scope.addComment = function(name, comment) {
   if(name != "" && comment != "") {
     $scope.list.items.push({name: name, comment: comment});
+    $scope.name = "";
+    $scope.comment = "";
   }
 }   
 });
