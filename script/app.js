@@ -6,6 +6,7 @@ var model = {
     ]
 };
 var sealApp = angular.module("seal", []);
+
 sealApp.controller("CommentsController", function ($scope) {
 $scope.list = model;
 $scope.addComment = function(name, comment) {
@@ -15,31 +16,18 @@ $scope.addComment = function(name, comment) {
 }   
 });
 
-/*
-angular
-  .module('yourAppModule')
-  .directive('btnAutoCollapse', directive);
-
-function directive() {
-  var dir = {
+sealApp.directive('btnAutoCollapse', function() {
+  return {
     restrict: 'A',
     scope: {},
     link: link
   };
-  return dir;
-
   function link(scope, element, attrs) {    
     element.on('click', function(event) {              
       $(".navbar-collapse.in").collapse('hide');
     });
   }
-}
-
-
-<li class="navbar-btn">
-     <a href="#" ng-hide="username" **btn-auto-collapse**>Sign in</a>
-</li>
+});
 
 
 
-*/
