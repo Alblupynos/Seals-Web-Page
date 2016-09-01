@@ -1,8 +1,8 @@
 var sealApp = angular.module("sealApp");
-sealApp.directive('btnAutoCollapse', function() {
+sealApp.directive('liAutoCollapse', function() {
   return {
     restrict: 'A',
-    scope: {},
+    /*scope: {},*/
     link: link
   };
   function link(scope, element, attrs) {    
