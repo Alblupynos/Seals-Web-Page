@@ -1,7 +1,5 @@
 /*GENERAL STYLES*/
 body{
-	font-family: Arial, San-Serif;
-	font-size: 100%;
 	padding-top: 50px;
 }
 
@@ -32,7 +30,7 @@ body{
 }
 
 .carousel-indicators li {
-	border: 1px solid #008B8B;/*doesn't work*/
+	border: 1px solid #008B8B;
 }
 
 
