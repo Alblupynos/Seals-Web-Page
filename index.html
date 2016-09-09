@@ -27,12 +27,12 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">	
 				<ul class="nav navbar-nav navbar-right">					
-					<li><a ng-hide="#myNavbar" li-auto-collapse href="#Description">Description</a></li>
-					<li><a ng-hide="#myNavbar" li-auto-collapse href="#Population">Population</a></li>
-					<li><a ng-hide="#myNavbar" li-auto-collapse href="#HabitatAndDiet">Habitat and diet</a></li>
-					<li><a ng-hide="#myNavbar" li-auto-collapse href="#BehaviorAndReproduction">Behavior and reproduction</a></li>
-					<li><a ng-hide="#myNavbar" li-auto-collapse href="#Video">Video</a></li>
-					<li><a ng-hide="#myNavbar" li-auto-collapse href="#Comments">Comments</a></li>
+					<li><a li-auto-collapse href="#Description">Description</a></li>
+					<li><a li-auto-collapse href="#Population">Population</a></li>
+					<li><a li-auto-collapse href="#HabitatAndDiet">Habitat and diet</a></li>
+					<li><a li-auto-collapse href="#BehaviorAndReproduction">Behavior and reproduction</a></li>
+					<li><a li-auto-collapse href="#Video">Video</a></li>
+					<li><a li-auto-collapse href="#Comments">Comments</a></li>
 				</ul>
 			</div>
 		</div>		
@@ -246,7 +246,7 @@
 				</div>
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-2">
-        				<button ng-click="addComment(name, comment)" type="submit" class="btn btn-default">Send</button>
+        				<add-comment name="name" comment="comment" list="list"></add-comment>
       				</div>
     			</div>
 			</form>
@@ -265,5 +265,6 @@
  	<script type="text/javascript" src="script/controllers/CommentsController.js"></script>
  	<!-- DIRECTIVES -->
  	<script type="text/javascript" src="script/directives/liAutoCollapse.js"></script>
+ 	<script type="text/javascript" src="script/directives/addComment.js"></script>
 </body>
 </html>

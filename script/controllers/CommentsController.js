@@ -8,12 +8,5 @@ var model = {
 };
 
 sealApp.controller("CommentsController", function ($scope) {
-$scope.list = model;
-$scope.addComment = function(name, comment) {
-  if(name != "" && comment != "") {
-    $scope.list.items.push({name: name, comment: comment});
-    $scope.name = "";
-    $scope.comment = "";
-  }
-}   
+    $scope.list = model;  
 });
