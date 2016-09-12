@@ -7,8 +7,7 @@ sealApp.directive ('addComment', function(){
       name: '=',
       comment: '=' 
     },
-    template: '<button ng-click="addComment(name, comment)" type="submit" class="btn btn-default">{{ buttonText }}</button>',
-    // templateUrl: 'script/directives/addComment.html',
+    templateUrl: 'script/directives/addComment.html',
     link: function(scope, element, attrs) { 
       scope.buttonText = "Send",  
 
