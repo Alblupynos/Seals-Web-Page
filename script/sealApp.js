@@ -1,5 +1,5 @@
 
-var sealApp = angular.module("sealApp", []);
+var sealApp = angular.module("sealApp", ['ngMaterial']);
 
 
 
