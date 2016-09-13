@@ -31,8 +31,14 @@ body{
 
 .carousel-indicators li {
 	border: 1px solid #000000;/*#008B8B*/
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
+.carousel-indicators .active {
+	margin-left: 3px;
+	margin-right: 3px;
+}
 
 /*MAIN PART*/
 .page-header {
