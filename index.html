@@ -215,10 +215,7 @@
 
   			<!-- Wrapper for slides -->
 	  			<div class="carousel-inner" role="listbox">
-		    		<div class="item active">
-		    			<h4>"They are so cute!"<br><span style="font-style:normal;">Chandler Bing</span></h4>    			
-		    		</div>
-	    			<div ng-repeat="item in list.items" class="item">
+	    			<div ng-repeat="item in list.items" ng-class="{active: $first}" class="item">
 	    				<h4>{{item.comment}}<br><span style="font-style:normal;">{{item.name}}</span></h4>     				
 	    			</div>
 			
@@ -271,5 +268,7 @@
  	<!-- DIRECTIVES -->
  	<script type="text/javascript" src="script/directives/liAutoCollapse.js"></script>
  	<script type="text/javascript" src="script/directives/addComment.js"></script>
+ 	<!-- Services -->
+    <script type="text/javascript" src="script/services/comments.js"></script>
 </body>
 </html>

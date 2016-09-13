@@ -7,7 +7,7 @@ sealApp.directive ('addComment', function(){
       name: '=',
       comment: '=' 
     },
-    templateUrl: 'script/directives/addComment.html',
+    templateUrl: 'views/addComment.html',
     link: function(scope, element, attrs) { 
       scope.buttonText = "Send",  
 
